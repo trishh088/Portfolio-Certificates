@@ -391,6 +391,40 @@ img.hover-shadow {
   background: rebeccapurple;
 }
 
+/* Adding hyperlinks to projects */
+.text {
+  text-align: center;
+  font-weight: bolder;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.click {
+  color: rebeccapurple;
+  display: inline;
+}
+
+.click:hover {
+  background-color: #c9283E;
+  border-radius: 10px 100px / 120px;
+  color: rebeccapurple;
+}
+
+.hyperlink {
+  text-align: center;
+  padding-left: 180px;
+}
+
+.hyperlink2, .hyperlink3 {
+  padding-left: 165px;
+}
+
 /*To make the website responsive*/
 @media screen and  (max-width: 900px) and (min-width: 600px) {
   .slide:nth-child(3) {
