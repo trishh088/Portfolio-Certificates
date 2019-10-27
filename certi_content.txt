@@ -1,0 +1,150 @@
+<div class="mySlides fade">
+  <div class="numbertext">1 / 30</div>
+  <img src="certi/bby_rohit_front.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 30</div>
+  <img src="certi/bby_rohit_back.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 30</div>
+  <img src="certi/bby_aman.png" style="width:100%">
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 30</div>
+  <img src="certi/bby_rohit_front.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 30</div>
+  <img src="certi/bby_rohit_back.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 30</div>
+  <img src="certi/bby_aman.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 30</div>
+  <img src="certi/judo.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 30</div>
+  <img src="certi/membership_chair.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 30</div>
+  <img src="certi/acm_cr.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 30</div>
+  <img src="certi/acm_headway.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 30</div>
+  <img src="certi/breast_cancer.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 30</div>
+  <img src="certi/arcane_creative.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 30</div>
+  <img src="certi/zing_certi.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 30</div>
+  <img src="certi/hdfc_silver_won.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 30</div>
+  <img src="certi/robotic_workshop.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">16 / 30</div>
+  <img src="certi/ethical_hacking.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">17 / 30</div>
+  <img src="certi/handball_won.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">18 / 30</div>
+  <img src="certi/ad_mad_won.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">19 / 30</div>
+  <img src="certi/web_designing.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">20 / 30</div>
+  <img src="certi/latex_workshop.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">21 / 30</div>
+  <img src="certi/info_security.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">22 / 30</div>
+  <img src="certi/digital_empower.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">23 / 30</div>
+  <img src="certi/robotics_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">24 / 30</div>
+  <img src="certi/elite_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">25 / 30</div>
+  <img src="certi/ntw_security_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">26 / 30</div>
+  <img src="certi/mini_tech_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">27 / 30</div>
+  <img src="certi/ieee_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">28 / 30</div>
+  <img src="certi/csi_tpp_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">29 / 30</div>
+  <img src="certi/csi_2015_parti.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">30 / 30</div>
+  <img src="certi/csi_2013_parti.png" style="width:100%">
+</div>
