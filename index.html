@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="en" >
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Trishla's Achievement</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="assets/simplelightbox.min.css" rel="stylesheet">
+    <title>Trishla's Achievement</title>
 <!--      <script defer type="text/javascript" src="https://pbutcher.uk/credit-tag/credit-tag-white-2.js"></script>
 -->
       <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <!-- partial:index.partial.html -->
-      <fieldset class="slideshow">
+      <link rel="stylesheet" href="stylecss.css">
+  </head>
+  <body>    <!-- partial:index.partial.html -->
+      <fieldset class="slideshow" id="mobile">
          <!-- Slide 1 -->
          <label class="slide-button" for="slideCheckbox1">Job Jam</label>
          <input type="radio" id="slideCheckbox1" name="slide" checked></input>
@@ -20,27 +24,24 @@
             <div class="slide__content" style="top:0;">
                <h1 class="accenture"> Accenture (Nov 2017 - Present) </h1>
                <!-- First three images -->
-               <br class="breaks">
-               <br class="breaks">
-             </br>
                </br>
-               <div class="row" style="width:590px;">
-                  <div class="column">
+               <div class="row" style="width:100%; margin-left: 30px;">
+                  <div class="column mt-1 col-lg-4">
                      <img src="certi/bby_rohit_front.png"  onclick="openModal();currentSlide(1)" class="hover-shadow cursor image_border slidea">
                   </div>
-                  <div class="column">
+                  <div class="column mt-1 col-lg-4">
                      <img src="certi/bby_rohit_back.png"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor image_border slidea">
                   </div>
-                  <div class="column">
+                  <div class="column mt-2 col-lg-4">
                      <img src="certi/bby_aman.png"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor image_border slidea">
                   </div>
                </div>
                <!-- 4th , 5th image -->
-               <div class="row" style="width:590px;">
-                  <div class="column">
+               <div class="row mt-4" style="width:100%; margin-left: 30px;">
+                  <div class="column col-4">
                      <img src="certi/bby_innovator_ajay_mahesh.png" onclick="openModal();currentSlide(4)" class="hover-shadow cursor image_border slidea">
                   </div>
-                  <div class="column">
+                  <div class="column col-4">
                      <img src="certi/acc_technocrat_19.png"  onclick="openModal();currentSlide(5)" class="hover-shadow cursor image_border slidea">
                   </div>
                </div>
@@ -85,74 +86,81 @@
            <h1 class="heading" style="color:white;">Extra Curricular in College👩🏻‍💻👉🏻</h1>
             <div class="slide__content">
               <!--Slide 2: 1st,2nd,3rd ,4th and 5th image -->
-              <div class="row" style="width:640px;">
-                 <div class="column col_slide_2">
+              <div class="row ml-2" style="margin-top: -40px">
+                 <div class="column col_slide_2 col-lg-3">
                     <img src="certi/membership_chair.png" style="width:100%;" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column col_slide_2">
+                 <div class="column col_slide_2 col-lg-3">
                     <img src="certi/judo.png" style="width:100%;" onclick="openModal2();currentSlide2(2)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column col_slide_2">
+                 <div class="column col_slide_2 col-lg-3">
                     <img src="certi/breast_cancer.png" style="width:100%;" onclick="openModal2();currentSlide2(3)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column col_slide_2">
+                 <div class="column col_slide_2 col-lg-3">
                     <img src="certi/acm_cr.png" style="width:100%;" onclick="openModal2();currentSlide2(4)" class="hover-shadow cursor image_border">
-                 </div>
-                 <div class="column col_slide_2">
-                    <img src="certi/arcane_creative.png" style="width:100%;" onclick="openModal2();currentSlide2(5)" class="hover-shadow cursor image_border">
                  </div>
                </div>
                <!--Slide 2: 6th,7th,8th,9th and 10th image -->
-               <div class="row" style="width:640px;">
-                  <div class="column col_slide_2">
+               <div class="row ml-2 mt-4" style="">
+
+                 <div class="column col_slide_2 col-lg-3">
+                    <img src="certi/arcane_creative.png" style="width:100%;" onclick="openModal2();currentSlide2(5)" class="hover-shadow cursor image_border">
+                 </div>
+                  <div class="column col_slide_2 col-lg-3">
                      <img src="certi/acm_headway.png" style="width:100%;" onclick="openModal2();currentSlide2(6)" class="hover-shadow cursor image_border">
                   </div>
-                  <div class="column col_slide_2">
+                  <div class="column col_slide_2 col-lg-3">
                      <img src="certi/latex_workshop.png" style="width:100%;" onclick="openModal2();currentSlide2(7)" class="hover-shadow cursor image_border">
                   </div>
-                  <div class="column col_slide_2">
+                  <div class="column col_slide_2 col-lg-3">
                      <img src="certi/robotic_workshop.png" style="width:100%;" onclick="openModal2();currentSlide2(8)" class="hover-shadow cursor image_border">
                   </div>
-                  <div class="column col_slide_2">
-                     <img src="certi/web_designing.png" style="width:100%;" onclick="openModal2();currentSlide2(9)" class="hover-shadow cursor image_border">
-                  </div>
-                  <div class="column col_slide_2">
-                     <img src="certi/digital_empower.png" style="width:100%;" onclick="openModal2();currentSlide2(10)" class="hover-shadow cursor image_border">
-                  </div>
+                  <!--
+                   -->
                 </div>
                 <!--Slide 2: 11th,12th,13th,14th and 15th image -->
-                <div class="row" style="width:640px;">
-                   <div class="column col_slide_2">
+                <div class="row ml-2 mt-4" style="">
+                	<div class="column col_slide_2 col-lg-3">
+                     <img src="certi/web_designing.png" style="width:100%;" onclick="openModal2();currentSlide2(9)" class="hover-shadow cursor image_border">
+                  </div>
+                  <div class="column col_slide_2 col-lg-3">
+                     <img src="certi/digital_empower.png" style="width:100%;" onclick="openModal2();currentSlide2(10)" class="hover-shadow cursor image_border">
+                 </div>
+                   <div class="column col_slide_2 col-lg-3">
                       <img src="certi/robotics_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(11)" class="hover-shadow cursor image_border">
                    </div>
-                   <div class="column col_slide_2">
+                   <div class="column col_slide_2 col-lg-3">
                       <img src="certi/ntw_security_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(12)" class="hover-shadow cursor image_border">
                    </div>
-                   <div class="column col_slide_2">
-                      <img src="certi/csi_tpp_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(13)" class="hover-shadow cursor image_border">
-                   </div>
-                   <div class="column col_slide_2">
-                      <img src="certi/mini_tech_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(14)" class="hover-shadow cursor image_border">
-                   </div>
-                   <div class="column col_slide_2">
-                      <img src="certi/ieee_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(15)" class="hover-shadow cursor image_border">
-                   </div>
+
                  </div>
                  <!--Slide 2: 16th,17th,18th,19th and 20th image -->
-                 <div class="row" style="width:640px;">
-                   <div class="column col_slide_2">
+                 <div class="row ml-2 mt-4" style="">
+                 	<div class="column col_slide_2 col-lg-3">
+                      <img src="certi/csi_tpp_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(13)" class="hover-shadow cursor image_border">
+                   </div>
+                   <div class="column col_slide_2 col-lg-3">
+                      <img src="certi/mini_tech_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(14)" class="hover-shadow cursor image_border">
+                   </div>
+                   <div class="column col_slide_2 col-lg-3">
+                      <img src="certi/ieee_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(15)" class="hover-shadow cursor image_border">
+                   </div>
+                   <div class="column col_slide_2 col-lg-3">
                       <img src="certi/csi_2013_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(16)" class="hover-shadow cursor image_border">
                    </div>
-                   <div class="column col_slide_2">
+
+                  </div>
+                  <div class="row ml-2 mt-4">
+                  	<div class="column col_slide_2 col-lg-3">
                       <img src="certi/csi_2015_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(17)" class="hover-shadow cursor image_border">
                    </div>
-                   <div class="column col_slide_2">
+                   <div class="column col_slide_2 col-lg-3">
                       <img src="certi/zing_certi.png" style="width:100%;" onclick="openModal2();currentSlide2(18)" class="hover-shadow cursor image_border">
                    </div>
-                    <div class="column col_slide_2">
+                    <div class="column col_slide_2 col-lg-3">
                        <img src="certi/info_security.png" style="width:100%;" onclick="openModal2();currentSlide2(19)" class="hover-shadow cursor image_border">
                     </div>
-                    <div class="column col_slide_2">
+                    <div class="column col_slide_2 col-lg-3">
                        <img src="certi/elite_parti.png" style="width:100%;" onclick="openModal2();currentSlide2(20)" class="hover-shadow cursor image_border">
                     </div>
                   </div>
@@ -273,14 +281,14 @@
          <div class="slide">
             <div class="slide__content">
               <!--Slide 3: 1st,2nd,and 3rd image -->
-              <div class="row" style="width:640px;">
-                 <div class="column">
+              <div class="row" style="margin-top: 10px;">
+                 <div class="column col-lg-4">
                     <img src="certi/hdfc_silver_won.png" style="width:100%;" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column">
+                 <div class="column col-lg-4">
                     <img src="certi/ad_mad_won.png" style="width:100%;" onclick="openModal3();currentSlide3(2)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column">
+                 <div class="column col-lg-4">
                     <img src="certi/handball_won.png" style="width:100%;" onclick="openModal3();currentSlide3(3)" class="hover-shadow cursor image_border">
                  </div>
                </div>
@@ -314,25 +322,27 @@
          <div class="slide">
             <div class="slide__content">
               <!--Slide 4: 1st and 2nd -->
-              <div class="row" style="width:590px;">
-                 <div class="column">
+              <div class="row ml-2" style="margin-top: 10px;">
+                 <div class="column col-lg-4">
                     <img src="certi/ethical_hacking.png" style="width:100%;" onclick="openModal4();currentSlide4(1)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column">
+                 <div class="column col-lg-4">
                     <img src="certi/udacity.PNG" style="width:100%;" onclick="openModal4();currentSlide4(2)" class="hover-shadow cursor image_border">
                  </div>
-                 <div class="column">
+                 <div class="column col-lg-4">
                     <img src="certi/QlikView_udemy_certi.jpg" style="width:100%;" onclick="openModal4();currentSlide4(3)" class="hover-shadow cursor image_border">
                  </div>
                </div>
                <br>
-               <div class="row" style="width:640px;">
-                 <span class="text">Click on the below links to check out few of my noteworthy projects at Udacity</span>
+               <div class="row ml-2 mt-5" style="text-align: center;">
+               	<div class="col-lg-12">
+                 <span class="text text-white">Click on the below links to check out few of my noteworthy projects at Udacity</span>
+               	</div>
                </div>
-                 <div class="row" style="width:500px;">
-                 <a class="hyperlink before after text" href="https://trishh088.github.io/Pixel-art-project/"target="_blank"><button class="btn click">Become a Digital Picasso</button></a>
-                 <a class="hyperlink2 before after" href="https://trishh088.github.io/Memory-game/"target="_blank"><button class="btn click">Can you remmember them all?</button></a>
-                 <a class="hyperlink3 before after" href="https://trishh088.github.io/arcade-frogger-game/"target="_blank"><button class="btn click">Let's Play an old School Game!</button></a>
+                 <div class="row ml-2 mt-3" style="text-align: center;">
+                 	<a class="hyperlink before after text" href="https://trishh088.github.io/Pixel-art-project/"target="_blank"><button class="btn click">Become a Digital Picasso</button></a>
+	                <a class="hyperlink2 before after" href="https://trishh088.github.io/Memory-game/"target="_blank"><button class="btn click">Can you remmember them all?</button></a>
+	                <a class="hyperlink3 before after" href="https://trishh088.github.io/arcade-frogger-game/"target="_blank"><button class="btn click">Let's Play an old School Game!</button></a>
                </div>
                <div id="myModal4" class="modal">
                   <span class="close cursor" onclick="closeModal4()">&times;</span>
@@ -359,23 +369,335 @@
                  </div>
             </div>
          </div>
-         <!-- Slide 5
-         <label class="slide-button" for="slideCheckbox5">5</label>
-         <input type="radio" id="slideCheckbox5" name="slide"></input>
-         <div class="slide">
-            <div class="slide__content">
-               <h1>The end</h1>
-               <p>It's over</p>
-            </div>
-         </div> -->
-         <!-- Add more slides here! -->
       </fieldset>
-      <!-- partial -
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
-      <script defer type="text/javascript" src="design.js"></script>
-   </body>
+      <div id="mobileshow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="javascript:void(0)">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" id="jobjambtn" href="javascript:void(0)">Job Jam <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="collegespicebtn" href="javascript:void(0)">College Spice</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="backtoschoolbtn" href="javascript:void(0)">Back To School</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="jetagestudiesbtn" href="javascript:void(0)">Jet Age Studies</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="jobjam mb-3" id="jobjam">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center" style="background-color: #Fbfafb;">
+                <h1 class="mt-4 text-center">🎖️'s Received</h1>
+                <img src="working_girl.gif" class="img-fluid mb-2" style="height: 150px;">
+              </div>
+              <div class="col-12">
+                <h1 class="mt-3 text-center acnt">Accenture (Nov 2017 - Present)</h1>
+                 <div class="gallery mt-3">
+                  <div class="row">
+                    <div class="col-4">
+                    <a href="certi/bby_rohit_front.png" class="big">
+                      <img src="certi/bby_rohit_front.png" alt="job1" class="img-fluid img-thumbnail image_border" title="Appreciation given by my Team lead Rohit#1">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="certi/bby_rohit_back.png" class="big">
+                      <img src="certi/bby_rohit_back.png" alt="job2" class="img-fluid img-thumbnail image_border" title="Appreciation given by my Team lead Rohit#2">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="certi/bby_aman.png" class="big">
+                      <img src="certi/bby_aman.png" alt="job3" class="img-fluid img-thumbnail image_border" title="Appreciation given by Aman who was my mentor in the mentor-mentee program">
+                    </a>
+                  </div>
+                  <div class="col-4 mt-2">
+                    <a href="certi/bby_innovator_ajay_mahesh.png" class="big">
+                      <img src="certi/bby_innovator_ajay_mahesh.png" alt="job4"  class="img-fluid img-thumbnail image_border" title="Innovator Award given by my seniors(Senior Software Engineer) - Ajay and Mahesh for handling mutiple automations within 1.5 years">
+                    </a>
+                  </div>
+                  <div class="col-4 mt-2">
+                    <a href="certi/acc_technocrat_19.png" class="big">
+                      <img src="certi/acc_technocrat_19.png" alt="job5" class="img-fluid img-thumbnail image_border" title="Appreciation given by Accenture Technocrat team for Hosting a Products level Technical Festival">
+                    </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        <div class="collegespice mb-3" id="collegespice" style="display: none;">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center " style="background-color: #252228;">
+                <h1 class="mt-4 text-center text-white acnt">Extra Curricular in College👩🏻‍💻👉🏻</h1>
+                <img src="homer.gif" class="img-fluid mb-2" style="height: 200px; width: 100% !important;">
+              </div>
+              <div class="col-12">
+                <h1 class="mt-3 text-center acnt"></h1>
+                 <div class="gallery1 mt-3">
+                  <div class="row">
+                      <div class="col-4">
+                        <a href="certi/membership_chair.png" class="big">
+                          <img src="certi/membership_chair.png" alt="college1" class="img-fluid img-thumbnail image_border" title="Got promoted from class representative to Elect then Current Membership Chair and handled multiple managerial duties and conducted 2 National level techincal fests(3rd and 4th year)">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="certi/judo.png" class="big">
+                          <img src="certi/judo.png" alt="college2" class="img-fluid img-thumbnail image_border" title="Cleared white belt">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="certi/breast_cancer.png" class="big">
+                          <img src="certi/breast_cancer.png" alt="college3" class="img-fluid img-thumbnail image_border" title="Created awareness about breast cancer in 2014(my second year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/acm_cr.png" class="big">
+                          <img src="certi/acm_cr.png" alt="college4"  class="img-fluid img-thumbnail image_border" title="This is where my ACM journey began, as a CR in 2014 and I completed my jorney by completing my tenure as the Membership Chairperson in 2017(2nd,3rd and 4th year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/arcane_creative.png" class="big">
+                          <img src="certi/arcane_creative.png" alt="college5" class="img-fluid img-thumbnail image_border" title="Helped generate ideas and implement decorations for our inter college cultural festival(my first year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/acm_headway.png" class="big">
+                          <img src="certi/acm_headway.png" alt="college6" class="img-fluid img-thumbnail image_border" title="Managed the business related event Headway for ACM(my second year)">
+                        </a>
+                      </div>
+                  </div>
+                  <div class="row mt-2">
+                      <div class="col-4">
+                        <a href="certi/latex_workshop.png" class="big">
+                          <img src="certi/latex_workshop.png" alt="college7" class="img-fluid img-thumbnail image_border" title="This workshop helped me understand the Latex tool which I then used to create all of my project reports">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="certi/robotic_workshop.png" class="big">
+                          <img src="certi/robotic_workshop.png" alt="college8" class="img-fluid img-thumbnail image_border" title="In this we raced our robo cars. It was a lot of fun watching our robots try to avoid hurdles using their sensors">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="certi/web_designing.png" class="big">
+                          <img src="certi/web_designing.png" alt="college9" class="img-fluid img-thumbnail image_border" title="This is where I got introduced to the world of HTML">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/digital_empower.png" class="big">
+                          <img src="certi/digital_empower.png" alt="college10"  class="img-fluid img-thumbnail image_border" title="This was a seminar that was conducted by SNDT university during the Digital India Movement in 2015 (my third year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/robotics_parti.png" class="big">
+                          <img src="certi/robotics_parti.png" alt="college11" class="img-fluid img-thumbnail image_border" title="">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/ntw_security_parti.png" class="big">
+                          <img src="certi/ntw_security_parti.png" alt="college12" class="img-fluid img-thumbnail image_border" title="We tried to find bugs and vulnerbilities of an application(my 2nd year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/csi_tpp_parti.png" class="big">
+                          <img src="certi/csi_tpp_parti.png" alt="college13" class="img-fluid img-thumbnail image_border"  title="Presented a Technical paper in 2015(my third year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/mini_tech_parti.png" class="big">
+                          <img src="certi/mini_tech_parti.png" alt="college14" class="img-fluid img-thumbnail image_border" title="This certificate was only provided to people who participated in maximum events during the festival conducted in the year 2014(my first year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/ieee_parti.png" class="big">
+                          <img src="certi/ieee_parti.png" alt="college15" class="img-fluid img-thumbnail image_border" title="This certificate was only provided to people who participated in maximum events during the festival conducted in the year 2014(my first year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/csi_2013_parti.png" class="big">
+                          <img src="certi/csi_2013_parti.png" alt="college16" class="img-fluid img-thumbnail image_border" title="This certificate was only provided to people who participated in maximum events during the festival conducted in the year 2014(my first year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/csi_2015_parti.png" class="big">
+                          <img src="certi/csi_2015_parti.png" alt="college17" class="img-fluid img-thumbnail image_border" title="This certificate was only provided to people who participated in maximum events during the festival conducted in the year 2015(my second year)">
+                        </a>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-4 mt-2">
+                        <a href="certi/zing_certi.png" class="big">
+                          <img src="certi/zing_certi.png" alt="college18" class="img-fluid img-thumbnail image_border" title="In this I created a light show on a bread board in 2013 and hence won the prize(my 1st year)">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/info_security.png" class="big">
+                          <img src="certi/info_security.png" alt="college19" class="img-fluid img-thumbnail image_border" title="Here we found vulnerbilities in a bugged application given to solve by our instructor">
+                        </a>
+                      </div>
+                      <div class="col-4 mt-2">
+                        <a href="certi/elite_parti.png" class="big">
+                          <img src="certi/elite_parti.png" alt="college20" class="img-fluid img-thumbnail image_border" title="Here I had to prepare and sell a fictional product to show my innovative and entrepreneurial skills(took part in second year and had cleared till 2nd round)">
+                        </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        <div class="backtoschool mb-3" id="backtoschool" style="display: none;">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center" style="background-color: #Fbfafb;">
+                <h1 class="mt-4 text-center">Back To School</h1>
+                <img src="back_to_school.gif" class="img-fluid mb-2" style="height: 150px;">
+              </div>
+              <div class="col-12">
+                <h1 class="mt-3 text-center acnt"></h1>
+                 <div class="gallery2 mt-3">
+                  <div class="row">
+                    <div class="col-6">
+                    <a href="certi/ad_mad_won.png" class="big">
+                      <img src="certi/ad_mad_won.png" alt="bts1" class="img-fluid img-thumbnail image_border" title="We had to rpoduce an advertisement, trying to sell a fictional product.">
+                    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="certi/handball_won.png" class="big">
+                      <img src="certi/handball_won.png" alt="bts2" class="img-fluid img-thumbnail image_border" title="Won 1st Price in sports game handball in 2010">
+                    </a>
+                  </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                      <a href="certi/hdfc_silver_won.png" class="big">
+                      <img src="certi/hdfc_silver_won.png" alt="bts3" class="img-fluid img-thumbnail image_border" style="height: 150px !important;" title="Won Silver level Schorlarship from HDFC bank">
+                    </a>
+                    </div>
+                    <div class="col-2"></div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        <div class="jetagestudies mb-3" id="jetagestudies" style="display: none;">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center" style="background-color: #413871;">
+                <h1 class="mt-4 text-center text-white">Jet Edge Studies</h1>
+                <img src="angry_study.gif" class="img-fluid mb-2" style="height: 200px; width: 100% !important;">
+              </div>
+              <div class="col-12">
+                <h1 class="mt-3 text-center acnt"></h1>
+                 <div class="gallery3 mt-3">
+                  <div class="row">
+                    <div class="col-4">
+                    <a href="certi/ethical_hacking.png" class="big">
+                      <img src="certi/ethical_hacking.png" alt="jes" class="img-fluid img-thumbnail image_border" title="This course was completed in 2015 to understand how to conduct or avoid falling in the hands of crackers(P.S: Hackers are the good guys,the term is used wrongly by Hollywood/Bollywood😝)" style="height: 100px">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="certi/udacity.PNG" class="big">
+                      <img src="certi/udacity.PNG" alt="jes" class="img-fluid img-thumbnail image_border" title="Completed this course in less than 5 months in 2017" style="height: 100px">
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="certi/QlikView_udemy_certi.jpg" class="big">
+                      <img src="certi/QlikView_udemy_certi.jpg" alt="jes" class="img-fluid img-thumbnail image_border" title="Completed this course to automate client deck in the month of Nov 2019" style="height: 100px">
+                    </a>
+                  </div>
+                  </div>
+                  <div class="row mt-4">
+                    <h4 class="p-3 text-white">Click on the below links to check out few of my noteworthy projects at Udacity</h4>
+                    <div class="col-12 text-center">
+                      <ul type="none" style="text-align: center;">
+                      <li style="font-size: 23px;">
+                        <a style="color: #663399; text-decoration: none;" class=" text-center" href="https://trishh088.github.io/Pixel-art-project/"target="_blank">Become a Digital Picasso</a>
+                      </li>
+                      <li style="font-size: 23px;">
+                        <a style="color: #663399; text-decoration: none;" class="" href="https://trishh088.github.io/Memory-game/"target="_blank">Can you remmember them all?</a>
+                      </li>
+                      <li style="font-size: 23px;">
+                        <a style="color: #663399; text-decoration: none;" class="" href="https://trishh088.github.io/arcade-frogger-game/"target="_blank">Let's Play an old School Game!</a>
+                      </li>
+                    </ul>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        <!--Mobile class end-->
+      </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+     <script defer type="text/javascript" src="design.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/simple-lightbox.min.js"></script>
+    <script type="text/javascript">
+      var gallery = $('.gallery a').simpleLightbox();
+      var gallery = $('.gallery1 a').simpleLightbox();
+      var gallery = $('.gallery2 a').simpleLightbox();
+      var gallery = $('.gallery3 a').simpleLightbox();
+    </script>
+    <script type="text/javascript">
+      $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    </script>
+    <script type="text/javascript">
+      $('#jobjambtn').click(function(){
+        $('#jobjam').show();
+        $('#collegespice').hide();
+        $('#backtoschool').hide();
+        $('#jetagestudies').hide();
+
+      });
+      $('#collegespicebtn').click(function(){
+        $('#jobjam').hide();
+        $('#collegespice').show();
+        $('#backtoschool').hide();
+        $('#jetagestudies').hide();
+
+      });
+      $('#backtoschoolbtn').click(function(){
+        $('#jobjam').hide();
+        $('#collegespice').hide();
+        $('#backtoschool').show();
+        $('#jetagestudies').hide();
+
+      });
+      $('#jetagestudiesbtn').click(function(){
+        $('#jobjam').hide();
+        $('#collegespice').hide();
+        $('#backtoschool').hide();
+        $('#jetagestudies').show();
+
+      });
+    </script>
+  </body>
 </html>
-<!-- Made refering  https://codepen.io/pbutcher/pen/gKqKdv and w3 schools
-Speacial thanks to w3schools for great articles.
-The images were taken from gihpy and tenor and best of google for helping fix bugs that I self generated :)-->

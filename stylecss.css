@@ -1,0 +1,595 @@
+/****************************************/
+html, body {
+  margin: 0;
+  background-color: #B8646C;
+  font-family: 'Alex Brush', cursive;
+}
+
+.slideshow {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: #000;
+  overflow: hidden;
+}
+
+/*For accomodating no of slides and making them visible*/
+.slidea {
+  width:100%;
+}
+input {
+  display: none;
+}
+input:checked + .slide {
+  transform: translateX(0px);
+  transition: transform 0.5s ease-in-out;
+}
+input:checked + .slide .slide__content {
+  width: 100%;
+  display: block;
+}
+
+.slide {
+  transform: translateX(-100%);
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-size: 50% 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.slide__content {
+  box-sizing: border-box;
+  /*height: calc(100% - 60px);
+  overflow: auto;
+  padding: 10px;*/
+  padding-bottom: 20px;
+  color: rebeccapurple;
+  position: absolute;
+  left: 100%;
+  display: none;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+.slide:nth-child(3) {
+  background: url("working_girl.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  font-family: 'Alex Brush', cursive;
+  background-color: #FAFAFA;
+}
+.slide:nth-child(3):after {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+.slide:nth-child(6) {
+  background: url("homer.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  image-rendering: auto;
+  background-position: center;
+  background-color: #232124;
+}
+
+.slide:nth-child(6):after {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+.slide:nth-child(9) {
+  background: url("back_to_school.gif");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: left center;
+}
+.slide:nth-child(9):after {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+.slide:nth-child(12) {
+  background: url("angry_study.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: #c9283E;
+}
+.slide:nth-child(12):after {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+.slide:nth-child(15) {
+  background: url("https://placehold.it/2000x2500/F0433A/fff?text=5");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.slide:nth-child(15):after {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+label {
+  box-sizing: border-box;
+  color: rebeccapurple;
+  font-weight: bold;
+  display: block;
+  /*width: calc((50% / 5) - 2%);*/
+  margin: 5px 1%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 4px #AAA;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  text-transform: uppercase;
+}
+label:hover {
+  cursor: pointer;
+  color: #FFF;
+  border-bottom: solid 4px #FFF;
+}
+
+label:nth-child(1) {
+  left: calc(51% + (0 * (50% / 5)));
+/*  border-bottom-color: #2E112D;*/
+border-bottom-color: #47247e;
+}
+label:nth-child(4) {
+  left: calc(48% + (1 * (50% / 5)));
+  border-bottom-color:  #c9283E;
+}
+label:nth-child(7) {
+  left: calc(49% + (2 * (50% / 5)));
+  border-bottom-color: #47247e;
+}
+label:nth-child(10) {
+  left: calc(51% + (3 * (50% / 5)));
+  border-bottom-color: #c9283E;
+}
+
+.slide-button {
+  font-size:1.2vw;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* MOdal CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0px 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 15vw;
+}
+
+/* To adjust more certis in column for slide 2*/
+.col_slide_2 {
+  float: left;
+  width: 10vw;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides, .mySlides2 {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #C9283E;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #C9283E;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.numbertext2 {
+  color: #C9283E;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo, .demo2 {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover,.demo2:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.3;
+}
+/*center heading*/
+.heading {
+  text-align:center;
+}
+
+/*To add space between heading and images */
+.breaks {
+  display: none;
+}
+
+.accenture {
+  text-align:center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.image_border {
+  border:3px solid rebeccapurple;
+  border-radius: 15px 50px 800px 5px;
+}
+/*For scroll bar animation*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C9283E;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rebeccapurple;
+}
+
+/* Adding hyperlinks to projects */
+.text {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 17px;
+  text-decoration: none;
+}
+.before{
+  text-decoration: none !important;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.click {
+  color: rebeccapurple;
+  display: inline;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.click:hover {
+  background-color: #c9283E;
+  border-radius: 10px 100px / 120px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#mobileshow{
+  display: none;
+}
+.acnt{
+  font-size: 20px;
+  color: #663399;
+
+}
+/*To make the website responsive*/
+@media screen and  (max-width: 900px) and (min-width: 600px) {
+   #mobile{
+    display: none;
+  }
+  #mobileshow{
+    display: block;
+  }
+  .accenture {
+  text-align:center;
+  font-size: 1rem;
+}
+.hyperlink {
+  text-align: center;
+  padding-left: 0;
+    text-decoration: none;
+}
+
+.hyperlink2, .hyperlink3 {
+  padding-left: 0;
+    text-decoration: none;
+}
+
+  /* .slide:nth-child(3), .slide:nth-child(6) , .slide:nth-child(9) , .slide:nth-child(12){
+     background-position: 0px 130px ;
+    }
+    .slide-button {
+        font-size:1.2vw;
+        top:370px;
+    }
+    .heading {
+      text-align: center;
+      font-size: x-large;
+    }
+    .slide {
+      width:35%;
+    }
+    .accenture {
+      position:absolute;
+      text-align:left;
+      font-size: 165%;
+      left: 8px;
+    }
+    .breaks {
+      display: block;
+    }
+    label:nth-child(1) {
+      left: calc(36% + (0 * (50% / 5)));
+      border-bottom-color: #c9283E;
+    }
+    label:nth-child(4) {
+      left: calc(33% + (1 * (50% / 5)));
+      border-bottom-color: #47247e;
+    }
+    label:nth-child(7) {
+      left: calc(34% + (2 * (50% / 5)));
+      border-bottom-color: #c9283E;
+    }
+    label:nth-child(10) {
+      left: calc(36% + (3 * (50% / 5)));
+      border-bottom-color: #47247e;
+    }
+    body {
+      display: inline-block;
+    }
+    .prev, .next {
+      top: 45%;
+    }
+    .prev2, .next2 {
+      top:36%;
+    }
+    .text {
+      font-size: small;
+    } */
+}
+
+
+@media screen and  (max-width: 500px) and (min-width: 300px) {
+  /* .accenture {
+    font-size: 3vw;
+    text-align: left;
+  }
+  .slidea {
+    width:135%;
+  }
+  .prev, .next {
+    top:40%;
+    font-size: 8px;
+  }
+  .slide:nth-child(3) {
+     background-position: 0px 130px ;
+    }
+    .label {
+      bottom:105px;
+    }
+    label:nth-child(1) {
+      left: calc(39.5% + (0 * (50% / 5)));
+      border-bottom-color: #c9283E;
+    }
+    label:nth-child(4) {
+      left: calc(38.5% + (1 * (50% / 5)));
+      border-bottom-color: #47247e;
+    }
+    label:nth-child(7) {
+      left: calc(43.25% + (2 * (50% / 5)));
+      border-bottom-color: #c9283E;
+    }
+    label:nth-child(10) {
+      left: calc(50.5% + (3 * (50% / 5)));
+      border-bottom-color: #47247e;
+    }
+    .slide-button {
+      font-size:1.8vw;
+      bottom: 105px;
+    }
+    .slide {
+      width: 40%;
+    } */
+}
+
+
+
+@media(max-width: 767px){
+  #mobile{
+    display: none;
+  }
+  #mobileshow{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .slide__content {
+  width: 20vw;
+  height: 20vw;
+  max-width: 70%;
+}
+.accenture{
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+}
+.slide {
+    transform: translateX(-100%);
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-size: 50% 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.slide-button {
+  bottom:0px;
+  }
+  .slide:nth-child(3) {
+    background-color: #FAFAFA;
+  }
+}
